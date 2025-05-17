@@ -2,6 +2,7 @@ import { useState } from "react";
 
 function App() {
   const [count , setCount] = useState(0);
+  const [toggle , setToggle] = useState(false);
 
   return (
     <>
