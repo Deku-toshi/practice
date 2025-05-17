@@ -19,6 +19,7 @@ function App() {
       <button onClick={toggleChange}>{toggle ? "表示" : "非表示"}</button>
 
       <h3>入力フォーム</h3>
+      <input type="text" />
     </>
   );
 }
