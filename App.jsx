@@ -12,6 +12,7 @@ function App() {
       <button onClick={() => setCount(prev => prev -=1)}>-</button>
 
       <h3>トグル</h3>
+      <button>表示</button>
     </>
   );
 }
