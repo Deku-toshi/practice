@@ -4,6 +4,10 @@ function App() {
   const [count , setCount] = useState(0);
   const [toggle , setToggle] = useState(false);
 
+  const toggleChange = () => {
+    setToggle(prev => !prev)
+  }
+
   return (
     <>
       <h3>カウンター</h3>
@@ -12,7 +16,7 @@ function App() {
       <button onClick={() => setCount(prev => prev -=1)}>-</button>
 
       <h3>トグル</h3>
-      <button>表示</button>
+      <button onClick={toggleChange}>{toggle ? "表示" : "非表示"}</button>
     </>
   );
 }
