@@ -17,6 +17,8 @@ function App() {
 
       <h3>トグル</h3>
       <button onClick={toggleChange}>{toggle ? "表示" : "非表示"}</button>
+
+      <h3>入力フォーム</h3>
     </>
   );
 }
