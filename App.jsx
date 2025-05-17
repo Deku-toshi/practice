@@ -3,6 +3,7 @@ import { useState } from "react";
 function App() {
   const [count , setCount] = useState(0);
   const [toggle , setToggle] = useState(false);
+  const [value , setValue] = useState("");
 
   const toggleChange = () => {
     setToggle(prev => !prev)
