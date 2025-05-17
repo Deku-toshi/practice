@@ -25,6 +25,7 @@ function App() {
 
       <h3>入力フォーム</h3>
       <input type="text" value={value} onChange={inputValue}/>
+      <p>{value}</p>
     </>
   );
 }
