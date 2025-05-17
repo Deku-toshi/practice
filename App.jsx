@@ -6,6 +6,9 @@ function App() {
   return (
     <>
       <h3>カウンター</h3>
+      {count}
+      <button>+</button>
+      <button>-</button>
     </>
   );
 }
