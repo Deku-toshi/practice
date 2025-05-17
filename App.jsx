@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      
+      <h3>カウンター</h3>
     </>
   );
 }
